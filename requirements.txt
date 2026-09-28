@@ -1,0 +1,23 @@
+# langchain Libraries
+langchain
+langchain-core
+langchain-community
+langchain-groq
+langchain-openrouter
+streamlit
+
+# Search Tools
+tavily-python
+
+# web scraping
+beautifulsoup4
+readability-lxml
+trafilatura
+requests
+lxml
+
+# Environment
+python-dotenv
+
+# for preety printing
+rich
