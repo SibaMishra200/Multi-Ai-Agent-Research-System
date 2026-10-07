@@ -18,7 +18,7 @@ def run_research_pipeline(topic : str) -> dict:
 
     print("\n search result ",state['search_results'])
 
-    time.sleep(15)
+    
 
     #step 2 - reader agent 
     print("\n"+" ="*50)
@@ -38,7 +38,7 @@ def run_research_pipeline(topic : str) -> dict:
 
     print("\nscraped content: \n", state['scraped_content'])
 
-    time.sleep(15)
+    
 
     #step 3 - writer chain 
 
@@ -58,7 +58,7 @@ def run_research_pipeline(topic : str) -> dict:
 
     print("\n Final Report\n",state['report'])
 
-    time.sleep(15)
+    
 
     #critic report 
 
@@ -71,6 +71,6 @@ def run_research_pipeline(topic : str) -> dict:
     })
 
     print("\n critic report \n", state['feedback'])
-    time.sleep(15)
+    
 
     return state
